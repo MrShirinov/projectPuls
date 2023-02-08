@@ -1,0 +1,32 @@
+.reviews {
+    position: relative;
+    min-height: 1047px;
+    &__client {
+        margin-top: 60px;
+        font-size: 14px;
+        color: #646464;
+    }
+    .left {
+        float: left;
+        padding-right: 60px;
+    }
+    &__ivan {
+        margin-top: 110px;
+    }
+    &__yulia {
+        margin-top: 110px;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__descr {
+        width: 680px;
+        padding-top: 10px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #0D0D0D;
+        overflow:hidden;
+    }
+}
